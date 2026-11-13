@@ -1,6 +1,6 @@
 site/
 
-Cloudflare Pages 用静的サイト（看転職ナビ）。
+Cloudflare Pages 用静的サイト（看護転職ナビ）。
 
 - `/` トップ
 - `/compare/` 比較表（提携後に社を追加）

@@ -1,17 +1,17 @@
 :root {
-  --bg: #f3f6f8;
-  --bg-accent: #e8eef3;
+  --bg: #f2f7f8;
+  --bg-accent: #e4eef1;
   --surface: #ffffff;
-  --ink: #152028;
-  --muted: #5a6b78;
-  --line: #d5dee6;
-  --brand: #0f5c6e;
-  --brand-soft: #d9eef2;
-  --cta: #0b7a5a;
-  --cta-hover: #09664b;
+  --ink: #1a2a32;
+  --muted: #5d6f78;
+  --line: #d0dde2;
+  --brand: #2a6f7c;
+  --brand-soft: #dceef1;
+  --cta: #c45b6a;
+  --cta-hover: #a84856;
   --warn: #8a5a00;
   --radius: 12px;
-  --shadow: 0 10px 30px rgba(21, 32, 40, 0.06);
+  --shadow: 0 10px 30px rgba(26, 42, 50, 0.06);
   --max: 980px;
   --font: "IBM Plex Sans JP", "Noto Sans JP", sans-serif;
 }
@@ -28,12 +28,12 @@ body {
   margin: 0;
   font-family: var(--font);
   color: var(--ink);
-  background-color: #efe6d6;
+  background-color: #eef5f6;
   background-image:
-    radial-gradient(circle at 12% 8%, rgba(15, 92, 110, 0.18), transparent 32%),
-    radial-gradient(circle at 92% 0%, rgba(184, 122, 46, 0.16), transparent 28%),
-    radial-gradient(circle at 70% 100%, rgba(11, 122, 90, 0.12), transparent 34%),
-    linear-gradient(180deg, #f6f0e4 0%, #e7eef0 55%, #f3efe6 100%);
+    radial-gradient(circle at 10% 0%, rgba(196, 91, 106, 0.14), transparent 34%),
+    radial-gradient(circle at 88% 12%, rgba(42, 111, 124, 0.16), transparent 30%),
+    radial-gradient(circle at 60% 100%, rgba(120, 164, 170, 0.18), transparent 36%),
+    linear-gradient(180deg, #f7fbfc 0%, #eef5f6 48%, #f4f8f9 100%);
   line-height: 1.7;
 }
 
@@ -43,9 +43,9 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background-image: radial-gradient(rgba(21, 32, 40, 0.07) 1px, transparent 1px);
-  background-size: 22px 22px;
-  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), transparent 80%);
+  background-image: radial-gradient(rgba(42, 111, 124, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent 78%);
 }
 
 a {
@@ -55,7 +55,7 @@ a {
 }
 
 a:hover {
-  color: #0a4553;
+  color: #1f5560;
 }
 
 img {
@@ -72,8 +72,8 @@ img {
   top: 0;
   z-index: 20;
   backdrop-filter: blur(12px);
-  background: rgba(246, 240, 228, 0.9);
-  border-bottom: 1px solid rgba(184, 148, 96, 0.28);
+  background: rgba(247, 251, 252, 0.9);
+  border-bottom: 1px solid rgba(42, 111, 124, 0.16);
 }
 
 .site-header .inner {
@@ -295,7 +295,7 @@ tr:last-child td {
   margin: 1rem 0 0;
   padding: 0.9rem 1rem;
   border-left: 3px solid #d4a017;
-  background: #fff8e8;
+  background: #f7eef0;
   color: #5c4700;
   border-radius: 0 8px 8px 0;
   font-size: 0.92rem;
